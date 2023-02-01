@@ -1,4 +1,39 @@
 const projects = [{
+        img: "shopify.jpg",
+        name: "Shopify App",
+        techstack: ['html5', 'css-3'],
+        deploymentUrl: "https://rajivee-shopifyapp.netlify.app",
+        description: `An application for shopping, used to buy on selecting number of items or products listed randomly or according to categories .`
+    },
+    {
+        img: "pizza.jfif",
+        name: "Pizza App",
+        techstack: ['html5', 'css-3'],
+        deploymentUrl: "https://rajivee-pizza.netlify.app",
+        description: `An application  used to buy on selecting number of pizza required by the user listed randomly or according to categories .`
+    },
+    {
+        img: "quiz.jfif",
+        name: "Quiz App",
+        techstack: ['html5', 'css-3'],
+        deploymentUrl: "https://rajivee-quiz.netlify.app",
+        description: `An application  used for answering random questions asked in the quiz and knowing the scores.`
+    },
+    {
+        img: "capstone.jfif",
+        name: "Capstone project",
+        techstack: ['html5', 'css-3'],
+        deploymentUrl: "https://capstoneproject-rajivee.netlify.app",
+        description: `An application  used for logging in using different methods life gmail, facebook etc.`
+    },
+    {
+        img: "stackoverflow.jfif",
+        name: "Stackoverflow project",
+        techstack: ['html5', 'css-3'],
+        deploymentUrl: "https://stackoverflow-rajivee.netlify.app",
+        description: `An user application used for asking questions and replying to other user questions.`
+    },
+    {
         img: "calc.png",
         name: "Calculator",
         techstack: ['html5', 'css-3'],
@@ -9,14 +44,14 @@ const projects = [{
         img: "form.png",
         name: "Survey Form",
         techstack: ['html5', 'css-3'],
-        deploymentUrl: "https://raji-events-survey-project.netlify.app/",
+        deploymentUrl: "https://raji-events-survey-project.netlify.app/task1.html",
         description: `An application for collecting the feedback from users on what they experience about the products of the company by providing their details and ratings.`
     },
     {
         img: "events.jpg",
         name: "Book for an event",
         techstack: ['html5', 'css-3'],
-        deploymentUrl: "https://raji-events-survey-project.netlify.app/",
+        deploymentUrl: "https://raji-events-survey-project.netlify.app/task2.html",
         description: `A single page application used for booking  an event according to the running events and availability of seats.`
     },
     {
