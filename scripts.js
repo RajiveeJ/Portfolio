@@ -2,15 +2,15 @@ function getStackImages(stack) {
     let ul = document.createElement('ul');
     ul.className = "list-group stack"
 
-    
+    let baseimgaddr = "/assets/img/"
 
     for (let tech of stack) {
         let li = document.createElement('li');
         li.className = "list-group-item"
         if (tech == "mongo") {
-            li.innerHTML = `<img src='${tech}.png' class="img-fluid" width="30" height="30" />`
+            li.innerHTML = `<img src='.${baseimgaddr+tech}.png' class="img-fluid" width="30" height="30" />`
         } else {
-            li.innerHTML = `<img src='${tech}.svg' width="30" height="30" class="img-fluid" />`
+            li.innerHTML = `<img src='.${baseimgaddr+tech}.svg' width="30" height="30" class="img-fluid" />`
         }
         ul.appendChild(li);
     }
@@ -53,7 +53,7 @@ const projectsFunc = (category) => {
 
             let h52 = document.createElement("h5");
             h52.className = "text-dark";
-            h52.innerHTML = `Tech Stack`
+            
 
             let ul1 = getStackImages(projects[i].techstack)
 
@@ -74,9 +74,10 @@ const projectsFunc = (category) => {
             footerrow2.className = "row d-flex justify-content-around";
 
             let button1 = document.createElement("a");
-            
-            
-            
+            button1.className = "btn btn-dark text-light btn-sm";
+            button1.href = `${projects[i].frontend}`
+            button1.innerHTML = `<i class="fab fa-github"></i> Frontend Repo`
+            button1.target = "_blank"
 
             if (projects[i].backend) {
                 let button2 = document.createElement("a");
@@ -144,7 +145,11 @@ const projectsFunc = (category) => {
                 let footerrow2 = document.createElement('div');
                 footerrow2.className = "row d-flex justify-content-around";
 
-                
+                let button1 = document.createElement("a");
+                button1.className = "btn btn-dark text-light btn-sm";
+                button1.href = `${projects[i].frontend}`
+                button1.innerHTML = `<i class="fab fa-github"></i> Frontend Repo`
+                button1.target = "_blank"
 
                 if (projects[i].backend) {
                     let button2 = document.createElement("a");
@@ -234,3 +239,4 @@ window.onload = () => {
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
