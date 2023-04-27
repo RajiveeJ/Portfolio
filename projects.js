@@ -11,7 +11,7 @@ const projects = [{
     img: "pizza.jfif",
     name: "Pizza App",
     techstack: [],
-    frontend: "https://github.com/RajiveeJ/pizza",
+    frontend: "https://github.com/RajiveeJ/pizza-app",
     backend: "https://github.com/RajiveeJ/backend",
     deploymentUrl: "https://rajivee-pizza.netlify.app",
     description: `An application  used to buy on selecting number of pizza required by the user listed randomly or according to categories .`
