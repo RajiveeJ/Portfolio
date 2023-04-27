@@ -24,15 +24,7 @@ const projects = [{
     deploymentUrl: "https://rajivee-quiz.netlify.app",
     description: `An application  used for answering random questions asked in the quiz and knowing the scores.`
 },
-{
-    img: "capstone.jfif",
-    name: "Capstone project",
-    techstack: [],
-    frontend: "https://github.com/RajiveeJ/Capstoneproject",
-    backend: "https://github.com/RajiveeJ/backend",
-    deploymentUrl: "https://capstoneproject-rajivee.netlify.app",
-    description: `An application  used for logging in using different methods like gmail, facebook etc.`
-},
+
 {
     img: "stackoverflow.jfif",
     name: "Stackoverflow project",
