@@ -25,15 +25,7 @@ const projects = [{
     description: `An application  used for answering random questions asked in the quiz and knowing the scores.`
 },
 
-{
-    img: "stackoverflow.jfif",
-    name: "Stackoverflow project",
-    techstack: [],
-    frontend: "https://github.com/RajiveeJ/stackoverflowclonefrontend",
-    backend: "https://github.com/RajiveeJ/stackoverflowclonebackend",
-    deploymentUrl: "https://stackoverflow-rajivee.netlify.app",
-    description: `An user application used for asking questions and replying to other user questions.`
-},
+
 {
     img: "calc.png",
     name: "Calculator",
