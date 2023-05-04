@@ -35,7 +35,7 @@ const projects = [{
 },
 {
     img: "chatapp.jpg",
-    name: "Simpl chat App",
+    name: "Simple chat App",
     techstack: [],
     frontend: "https://github.com/RajiveeJ/chat-app-fe",
     backend: "https://github.com/RajiveeJ/chat-app-be",
