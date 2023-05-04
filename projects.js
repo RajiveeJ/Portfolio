@@ -24,8 +24,24 @@ const projects = [{
     deploymentUrl: "https://rajivee-quiz.netlify.app",
     description: `An application  used for answering random questions asked in the quiz and knowing the scores.`
 },
-
-
+{
+    img: "mb.jg",
+    name: "Mobile booking App",
+    techstack: [],
+    frontend: "https://github.com/RajiveeJ/moviebookingapp",
+    backend: "https://github.com/RajiveeJ/backend",
+    deploymentUrl: "https://rajivee-moviebookingapp.netlify.app/",
+    description: `An application  used for booking favourite tamil movie tickets`
+},
+{
+    img: "chatapp.jg",
+    name: "Simpl chat App",
+    techstack: [],
+    frontend: "https://github.com/RajiveeJ/chat-app-fe",
+    backend: "https://github.com/RajiveeJ/chat-app-be",
+    deploymentUrl: "https://rajivee-chat-app.netlify.app/",
+    description: `A simple chat application used as a messenger app to send messages`
+},
 {
     img: "calc.png",
     name: "Calculator",
