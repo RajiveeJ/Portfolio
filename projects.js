@@ -25,7 +25,7 @@ const projects = [{
     description: `An application  used for answering random questions asked in the quiz and knowing the scores.`
 },
 {
-    img: "mb.jg",
+    img: "mb.jpg",
     name: "Mobile booking App",
     techstack: [],
     frontend: "https://github.com/RajiveeJ/moviebookingapp",
@@ -34,7 +34,7 @@ const projects = [{
     description: `An application  used for booking favourite tamil movie tickets`
 },
 {
-    img: "chatapp.jg",
+    img: "chatapp.jpg",
     name: "Simpl chat App",
     techstack: [],
     frontend: "https://github.com/RajiveeJ/chat-app-fe",
