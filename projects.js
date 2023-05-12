@@ -26,7 +26,7 @@ const projects = [{
 },
 {
     img: "mb.jpg",
-    name: "Mobile booking App",
+    name: "Movie booking App",
     techstack: [],
     frontend: "https://github.com/RajiveeJ/moviebookingapp",
     backend: "https://github.com/RajiveeJ/backend",
