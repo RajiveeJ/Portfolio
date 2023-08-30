@@ -8,6 +8,15 @@ const projects = [{
     description: `An application for shopping, used to buy on selecting number of items or products listed randomly or according to categories .`
 },
 {
+    img: "Food.jpg",
+    name: "Food App",
+    techstack: [],
+    frontend: "https://github.com/RajiveeJ/food-app-fe",
+    backend: "https://github.com/RajiveeJ/food-app-be",
+    deploymentUrl: "https://rajivee-foodapp.netlify.app",
+    description: `An application for ordering a delicious food .`
+},
+{
     img: "pizza.jfif",
     name: "Pizza App",
     techstack: [],
